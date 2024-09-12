@@ -1,0 +1,128 @@
+@font-face {
+  font-family: popins-light;
+  src: url(./assets/fonts/poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+  font-family: poppins-semiBold;
+  src: url(./assets/fonts/poppins/Poppins-SemiBold.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 550px;
+  height: 900px;
+  box-shadow: 0 0 5px grey;
+  margin: auto;
+  background-color: white;
+  margin-top: 30px;
+  overflow: hidden; /* Prevent scroll on the body */
+}
+
+.navbar {
+padding: 30px;
+box-shadow: 0 2px 8px -2px gray;
+}
+
+
+.container-hero {
+  padding: 20px;
+}
+
+.hero-image {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 450px;
+}
+
+.content {
+  padding-top: 10px;
+}
+
+.title-hero{
+  font-family: poppins-semiBold;
+}
+
+.content-hero {
+  font-family: popins-light;
+}
+
+.card {
+  position: relative;
+}
+
+.card-badge {
+  font-family: poppins-semiBold;
+  position: absolute;
+  color: rgb(71, 71, 71);
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 5px;
+  top: 6px;
+  left: 6px;
+  background-color: rgb(237, 237, 237);
+}
+
+.img-card {
+  width: 176px;
+  height: 235px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.icon-start {
+  width: 14px;
+  height: 14px;
+}
+
+
+.card-container {
+  margin-left: 20px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  /* Arrange cards horizontally */
+  gap: 20px;
+  /* Gap between cards */
+  overflow-x: auto;
+  /* Enable horizontal scrolling */
+  overflow-y: hidden;
+  /* Hide vertical overflow if not needed */
+  white-space: nowrap;
+  /* Ensure cards stay in a single line */
+}
+
+.review {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  padding: 1px;
+  font-size: 12px;
+  font-family: popins-light;
+  display: inline-block;
+  list-style: none;
+}
+
+.title-airbnb {
+  font-family: popins-light;
+  font-size: 12px;
+}
+
+.price-span {
+  font-family: poppins-semiBold;
+  font-size: 12px;
+}
+
+.price {
+  font-family: popins-light;
+  font-size: 12px;
+}
